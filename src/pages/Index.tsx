@@ -1,4 +1,4 @@
-import { SpaceDashboard } from "@/components/SpaceDashboard";
+import  SpaceDashboard  from "@/components/SpaceDashboard";
 
 const Index = () => {
   return <SpaceDashboard />;

@@ -50,10 +50,10 @@ const MarsLandingPage = () => {
         {/* Logo/Title */}
         <div className={`transition-all duration-1000 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'}`}>
           <h1 className="text-6xl md:text-8xl font-bold bg-gradient-to-r from-orange-400 via-red-500 to-yellow-500 bg-clip-text text-transparent mb-6 animate-pulse">
-            MARS
+            SPACE
           </h1>
           <div className="text-2xl md:text-3xl text-white/90 font-light tracking-wider mb-2">
-            MISSION
+            VOYAGER
           </div>
         </div>
 
