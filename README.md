@@ -1,73 +1,95 @@
-# Welcome to your Lovable project
 
-## Project info
+# 🌌 Space Dashboard
 
-**URL**: https://lovable.dev/projects/4d909d55-75e8-4fb0-94df-6336589e1432
+A web-based dashboard that visualizes live or simulated space mission data, including satellite telemetry, ISS location, Mars weather updates, and asteroid tracking. This project is designed to be a frontend-only, interactive, and educational space data explorer.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 Project Overview
 
-**Use Lovable**
+This dashboard brings together multiple types of space-related data into one clean, modular interface. It provides visual insights using maps, charts, and data cards—ideal for researchers, students, or anyone interested in space missions.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/4d909d55-75e8-4fb0-94df-6336589e1432) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛰️ Features
 
-**Use your preferred IDE**
+- 📡 **Satellite Telemetry** – Simulated data for speed, altitude, battery, and orbit time.  
+- 🗺️ **ISS Tracker** – Live tracking of the International Space Station using real-time coordinates.  
+- 🌌 **Mars Weather** – Simulated Martian temperature, pressure, and wind data.  
+- ☄️ **Asteroid Watch** – Close-approach object list with size, distance, and approach date.  
+- 📊 **Interactive Visuals** – Charts, gauges, and maps for engaging user experience.  
+- 🔄 **Live + Simulated Modes** – Easily switch between real and mock data for demos or offline use.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🧰 Tech Stack
 
-Follow these steps:
+| Category           | Tools Used                                   |
+|--------------------|----------------------------------------------|
+| **Frontend**        | React (with TypeScript)                      |
+| **Build Tool**      | Vite                                         |
+| **Styling**         | Tailwind CSS, PostCSS                        |
+| **UI Components**   | Custom + third-party (in `components/ui/`)  |
+| **Visualization**   | Recharts, Leaflet / Three.js (if needed)     |
+| **Linting**         | ESLint                                       |
+| **Package Manager** | npm / yarn / bun                             |
+| **Typing**          | TypeScript                                   |
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## ⚙️ Setup Instructions
 
-# Step 3: Install the necessary dependencies.
-npm i
+```bash
+# 1. Clone the repo
+git clone https://github.com/your-username/space-dashboard.git
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 2. Navigate to the project folder
+cd space-dashboard
+
+# 3. Install dependencies
+npm install
+
+# 4. Start development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📁 Project Structure (Sample)
 
-**Use GitHub Codespaces**
+```
+src/
+│
+├── components/
+│   ├── Navbar.tsx
+│   ├── ISSMap.tsx
+│   ├── TelemetryPanel.tsx
+│   └── MarsWeatherCard.tsx
+│
+├── data/
+│   └── simulatedData.json
+│
+├── App.tsx
+└── main.tsx
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## ✅ Feasibility Summary
 
-This project is built with:
+- **Technical:** Uses popular tools like React, Tailwind, and chart libraries; all well-supported.  
+- **Operational:** Clean UI, no technical knowledge required to use.  
+- **Economic:** Free and open-source tools, no backend/server costs.  
+- **Schedule:** Modular structure supports quick development and testing.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 📜 License
 
-Simply open [Lovable](https://lovable.dev/projects/4d909d55-75e8-4fb0-94df-6336589e1432) and click on Share -> Publish.
+This project is open-source and free to use under the [MIT License](LICENSE).
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## ✨ Credits
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Developed as part of a hackathon project. Powered by curiosity and caffeine.
